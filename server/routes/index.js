@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Phone = require("../models/phones-model")
 const fetch = require("node-fetch");
-const Request = require("request")
 const axios = require('axios');
 
 global.Headers = fetch.Headers;
